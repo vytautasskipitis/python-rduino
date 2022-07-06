@@ -1,0 +1,27 @@
+/*
+ * Rui Santos 
+ * Complete Project Details https://randomnerdtutorials.com
+*/
+
+int ledPin=11;
+int sensorPin=10;
+int val =0;
+
+void setup(){
+  pinMode(ledPin, OUTPUT);
+  pinMode(sensorPin, INPUT);
+  pinMode(A0, INPUT);
+  Serial.begin (9600);
+}
+  
+void loop (){
+  val =analogRead(A0);
+  Serial.println (val);
+  // when the sensor detects a signal above the threshold value, LED flashes
+  if (val>200) {
+    digitalWrite(ledPin, HIGH);
+  }
+  else {
+    digitalWrite(ledPin, LOW);
+  }
+}

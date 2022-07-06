@@ -1,0 +1,13 @@
+1 pasijunk zingsnini varikliuka
+2 parasyk reporta ,kad del bluetooth ir kitu usb gali neveikt irasymas
+3 su datetime suklasifikuot visus irasus i patogu lista
+4 funkcija kuri atpazintu garsa ir atstuma ir valdytu zingsnini pagal duomenis
+5 gali isbandyt kitas db.
+6 issibandyk nn.
+7*** pasirasyk klase kur kiekvienas klases parametras bus skirtingas sensorius
+
+readme:
+rdata ismetoma i du sarasus pagal int ir str. kodas sulus pajungus sensorius kuriuose yra panasus duomenu tipai
+nzn. ar galima parasyt universalu koda turbut reiks kiekvienam sensoriui pritaikyt individualu.
+
+irasymo metu luzta tk. reik sugalvot aborta kaip nutraukt irasyma kai liks tik exe
